@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  /* background-color: #e6e6ff; */
+  background-color: #e6e6ff;
+  width: 100vw;
+  overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
+}
+
+.animatedButton{
+  animation-duration: 10000ms;
+}
+
+.ql-container{
+  border: none !important;
+}
+.ql-toolbar{
+  border: none !important;
+}
+.ql-editor{
+  border: none !important;
+}
+
+.content-display span {
+  background-color: transparent !important;
+}
+
+/* For RTL Layout */
+html[dir="rtl"] {
+  text-align: right; /* Align all text to the right in RTL */
+}
+
+html {
+  /* Set the default direction of your document */
+  direction: rtl; /* You can change this to rtl if your default language is RTL */
+}
