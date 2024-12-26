@@ -13,31 +13,31 @@ const MainCategories = () => {
           كل المنشورات
         </Link>
         <Link
-          to="/posts?cat=sport"
+          to="/posts?cat=رياضة"
           className="hover:bg-blue-50 rounded-full px-4 py-2"
         >
           رياضة
         </Link>
         <Link
-          to="/posts?cat=culture"
+          to="/posts?cat=ثقافة"
           className="hover:bg-blue-50 rounded-full px-4 py-2"
         >
           ثقافة
         </Link>
         <Link
-          to="/posts?cat=social"
+          to="/posts?cat=اجتماع"
           className="hover:bg-blue-50 rounded-full px-4 py-2"
         >
           اجتماع
         </Link>
         <Link
-          to="/posts?cat=environment"
+          to="/posts?cat=بيئة"
           className="hover:bg-blue-50 rounded-full px-4 py-2"
         >
           بيئة
         </Link>
         <Link
-          to="/posts?cat=art"
+          to="/posts?cat=فن"
           className="hover:bg-blue-50 rounded-full px-4 py-2"
         >
           فن

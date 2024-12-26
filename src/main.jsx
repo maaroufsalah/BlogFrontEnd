@@ -16,6 +16,7 @@ import "react-toastify/dist/ReactToastify.css";
 import '../utils/timeagoSetup.js';
 import About from "./routes/About.jsx";
 import Contact from "./routes/Contact.jsx";
+import { arSA } from '@clerk/localizations';
 
 const queryClient = new QueryClient();
 
@@ -67,7 +68,7 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <ClerkProvider publishableKey={PUBLISHABLE_KEY}>
+    <ClerkProvider localization={arSA} publishableKey={PUBLISHABLE_KEY}>
       <QueryClientProvider client={queryClient}>
         <RouterProvider router={router} />
         <ToastContainer position="bottom-right" />
